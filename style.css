@@ -1,0 +1,81 @@
+.head{
+      
+    background-color:rgb(255, 255, 255);
+    border:outset;
+    border-color: firebrick;
+    border-width: 5px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 7px 5px rgb(82, 78, 78);
+    background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(196, 132, 171));
+     }
+  
+     .note{
+       background-color: red;
+       border: double;
+
+     }
+  
+  .grid {
+    background: rgb(185, 29, 29);
+    background-color: #F0F8FF;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+    font-variant: Small-Caps;
+    font-family: monospace;
+    font-size: large;
+    outline: double ;
+    text-decoration: overline dotted;
+ 
+  }
+
+  .item {
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:#E8E5E4;
+    border-radius: 10px;
+    box-shadow: inset 0 0 7px 5px rgb(82, 78, 78);
+    background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(124, 184, 211));
+  }
+  
+ 
+
+  body{
+  margin: 20px 20px 20px 20px;
+  }
+  .item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    bottom:10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+    
+}
+
+a:link{
+    color: rgb(233, 219, 27);
+}
+
+a:visited{
+    color: rgb(228, 13, 13);
+}
+
+.item:hover p{
+    opacity:1;
+
+}
+
+.item:hover img{
+    opacity:0.33;
+}
